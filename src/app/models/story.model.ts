@@ -28,6 +28,9 @@ export interface DialogueSeq extends Seq {
     image: string; // URL
   };
   yarnUrl: string;
+  character: {
+    image: string; // URL
+  };
 }
 
 export interface TimeSliderSeq extends Seq {

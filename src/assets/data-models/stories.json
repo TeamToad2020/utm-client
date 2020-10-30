@@ -5,7 +5,7 @@
     "title": "The Oracle",
     "lang": "en",
     "description": "Berta Jacobs was the illegitimate child in the famous Lichtenberg family.",
-    "featured-image": "/assets/data-models/stories/20201000024_oracle_start/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000024_oracle_start/bertken.png",
     "hidden": false,
     "authors": [
       {
@@ -26,10 +26,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000024_oracle_start",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000024_oracle_start/background_oracle.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000024_oracle_start/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000024_oracle_start/bertken.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000024_oracle_start/1_Protoptype_Oracle_start.json"
@@ -43,7 +43,7 @@
     "title": "François Villon",
     "lang": "en",
     "description": "The cursed Poet. François de Montcorbier took the name of his guardian Guillaume de Villon. He took François to his home after the death of his father.",
-    "featured-image": "/assets/data-models/stories/20201000025_villon/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000025_villon/villon.png",
     "hidden": false,
     "authors": [
       {
@@ -64,10 +64,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000025_villon",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000025_villon/background_Villon.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000025_villon/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000025_villon/villon.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000025_villon/2_Protoptype_villon.json"
@@ -81,7 +81,7 @@
     "title": "Malgosia Fiebig",
     "lang": "en",
     "description": "Was the Dom Tower’s first woman carillonist in over three hundred centuries.",
-    "featured-image": "/assets/data-models/stories/20201000026_carillionist/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000026_carillionist/malgosia.png",
     "hidden": false,
     "authors": [
       {
@@ -102,10 +102,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000026_carillionist",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000026_carillionist/background_Carilionist.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000026_carillionist/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000026_carillionist/malgosia.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000026_carillionist/3_Protoptype_carillionist.json"
@@ -119,7 +119,7 @@
     "title": "Jan van den Doem",
     "lang": "en",
     "description": "Jan designed the Dom Tower and is responsible for the appearance of the tower today.",
-    "featured-image": "/assets/data-models/stories/20201000027_doem/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000027_doem/doem.png",
     "hidden": false,
     "authors": [
       {
@@ -140,10 +140,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000027_doem",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000027_doem/background_Jan_van_der_Doem.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000027_doem/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000027_doem/doem.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000027_doem/4_Protoptype_Doem.json"
@@ -157,7 +157,7 @@
     "title": "Truus van Lier",
     "lang": "en",
     "description": "Law student and member of the student resistance group CS-6 during WWII.",
-    "featured-image": "/assets/data-models/stories/20201000028_truus/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000028_truus/truus.png",
     "hidden": false,
     "authors": [
       {
@@ -178,10 +178,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000028_truus",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000028_truus/background_Truus_van_Lier.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000028_truus/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000028_truus/truus.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000028_truus/5_Prototype_Truus.json"
@@ -195,7 +195,7 @@
     "title": "Jan van Nassau",
     "lang": "en",
     "description": "Was born into the noble House of Nassau.",
-    "featured-image": "/assets/data-models/stories/20201000029_nassau/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000029_nassau/jannassau.png",
     "hidden": false,
     "authors": [
       {
@@ -216,10 +216,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000029_nassau",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000029_nassau/background_nassau_buys_ballot_sun.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000029_nassau/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000029_nassau/jannassau.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000029_nassau/6_Protoptype_Nassau.json"
@@ -233,7 +233,7 @@
     "title": "Anna Maria van Schurman",
     "lang": "en",
     "description": "Anna Maria van Schurman was the first female student in the Netherlands.",
-    "featured-image": "/assets/data-models/stories/20201000030_annamaria/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000030_annamaria/schurman.png",
     "hidden": false,
     "authors": [
       {
@@ -254,10 +254,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000030_annamaria",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000030_annamaria/background_anna_maria_van_schurman.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000030_annamaria/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000030_annamaria/schurman.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000030_annamaria/7_Protoptype_AnnaMaria.json"
@@ -271,7 +271,7 @@
     "title": "Buys Ballot",
     "lang": "en",
     "description": "Buys Ballot was famous for his observation of wind and his meteorological law.",
-    "featured-image": "/assets/data-models/stories/20201000031_buysballot/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000031_buysballot/buys.png",
     "hidden": false,
     "authors": [
       {
@@ -292,10 +292,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000031_buysballot",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000031_buysballot/background_nassau_buys_ballot_sun.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000031_buysballot/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000031_buysballot/buys.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000031_buysballot/8_Protoptype_BuysBallot.json"
@@ -309,7 +309,7 @@
     "title": "Brinno",
     "lang": "en",
     "description": "Leader of the Cananefates. Under his leadership, revolted against the Romans.",
-    "featured-image": "/assets/data-models/stories/20201000032_brinno/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000032_brinno/brinno.png",
     "hidden": false,
     "authors": [
       {
@@ -330,10 +330,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000032_brinno",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000032_brinno/background_Brinno.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000032_brinno/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000032_brinno/brinno.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000032_brinno/9_Protoptype_Brinno.json"
@@ -347,7 +347,7 @@
     "title": "Sun",
     "lang": "en",
     "description": "A reflective surface to defeat the Basilisk",
-    "featured-image": "/assets/data-models/stories/20201000033_sun/random-character-image.gif",
+    "featured-image": "/assets/data-models/stories/20201000033_sun/sun(academybuilding).png",
     "hidden": false,
     "authors": [
       {
@@ -368,10 +368,10 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000033_sun",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000033_sun/background_nassau_buys_ballot_sun.jpg"
         },
         "character": {
-          "image": "/assets/data-models/stories/20201000033_sun/random-character-image.gif"
+          "image": "/assets/data-models/stories/20201000033_sun/bertken.png"
         },
         "color-scheme": "dark",
         "yarnUrl": "/assets/data-models/stories/20201000033_sun/10_Protoptype_Sun.json"
@@ -406,7 +406,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000034_oracle_end",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000034_oracle_end/background_end_basilisk.jpg"
         },
         "character": {
           "image": ""

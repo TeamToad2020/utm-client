@@ -11,7 +11,7 @@
 	},
 	{
 		"title": "Give Sword Button",
-		"tags": "removeSword addBrinnoMedal",
+		"tags": "removeSword",
 		"body": "\"I attacked it with this very sword but it was futile.\n\nHis scales are as hard as diamond.\nHis eyes are made of fire. \n\nHis breath is putrid and will make you faint on the spot. \n\nBe brave soldier. A death in battle is a noble death.\"\n\n [[Run for your life- End game now!|Quit game coward]] [[That's a noble death!-For Utrecht!|Speak to Oracle]]",
 		"position": {
 			"x": 5172,
@@ -31,7 +31,7 @@
 	},
 	{
 		"title": "Speak to Oracle",
-		"tags": "",
+		"tags": "addBrinnoMedal",
 		"body": "",
 		"position": {
 			"x": 5565,

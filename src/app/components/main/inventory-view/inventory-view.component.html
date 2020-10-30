@@ -14,7 +14,7 @@
         Items
       </ion-list-header>
 
-      <ion-item *ngFor="let item of InventoryItems">
+      <ion-item *ngFor="let item of InventoryItems | async">
         <ion-avatar slot="start">
           <img src="{{ item.img }}" />
         </ion-avatar>

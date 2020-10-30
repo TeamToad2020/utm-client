@@ -1,60 +1,70 @@
 [
   {
+    "id": "CommonRuePotion",
     "title": "Potion",
     "img": "assets/img/inventory-items-icons/potioncommonrue.png",
     "desc": "A potion made with common rue, given to you by the oracle. \"Apply this on the petrified characters and they shall be freed from their bronze prison\""
   },
 
   {
+    "id": "Paper",
     "title": "Sheet music",
     "img": "assets/img/inventory-items-icons/sheet-music.png",
     "desc": "A piece of paper dropped by Villon. It look like it's sheet music for a carillon"
   },
 
   {
+    "id": "Hammer",
     "title": "Hammer",
     "img": "assets/img/inventory-items-icons/hammer.png",
     "desc": "Hammer given to you by the Carrilonist. Could This hammer be used in construction work?"
   },
 
   {
-    "title": "Daffodil",
+    "id": "Daffodils",
+    "title": "Daffodils",
     "img": "assets/img/inventory-items-icons/daffodils.png",
     "desc": "Daffodil given to you by the Builder."
   },
 
   {
+    "id": "UnionOfUtrecht",
     "title": "Union of Utrecht",
     "img": "assets/img/inventory-items-icons/unionofutrecht.png",
     "desc": "A piece of paper which looks like it could be the Union of Utrecht."
   },
 
   {
+    "id": "Quill",
     "title": "Quill",
     "img": "assets/img/inventory-items-icons/quill.png",
     "desc": "A quill given to you by Jan van Nassau."
   },
 
   {
+    "id": "Book",
     "title": "Book",
     "img": "assets/img/inventory-items-icons/book.png",
     "desc": "A book given to you by Anna Maria."
   },
 
   {
+    "id": "Sword",
     "title": "Sword",
     "img": "assets/img/inventory-items-icons/sword.png",
     "desc": "A sword given to you by Buys Ballot. Could this be the weapon that can kill the basilisk?"
   },
 
   {
+    "id": "Sun",
     "title": "Sun",
     "img": "assets/img/inventory-items-icons/sun.png",
     "desc": "A reflective statue of the sun. Could this be used as a mirror to make the basilisk petrify himself"
   },
 
   {
-    "title": "Medallion",
+    "id": "BasiliskMedal",
+    "title": "Basilisk",
     "img": "assets/img/inventory-items-icons/medal.png",
     "desc": "You've beaten the basilisk. This medallion represents your victory."
   }
