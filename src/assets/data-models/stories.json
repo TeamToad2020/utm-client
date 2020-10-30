@@ -26,7 +26,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000024_oracle_start",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000024_oracle_start/background_oracle.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000024_oracle_start/bertken.png"
@@ -64,7 +64,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000025_villon",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000025_villon/background_Villon.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000025_villon/villon.png"
@@ -102,7 +102,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000026_carillionist",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000026_carillionist/background_Carilionist.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000026_carillionist/malgosia.png"
@@ -140,7 +140,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000027_doem",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000027_doem/background_Jan_van_der_Doem.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000027_doem/doem.png"
@@ -178,7 +178,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000028_truus",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000028_truus/background_Truus_van_Lier.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000028_truus/truus.png"
@@ -216,7 +216,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000029_nassau",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000029_nassau/background_nassau_buys_ballot_sun.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000029_nassau/jannassau.png"
@@ -254,7 +254,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000030_annamaria",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000030_annamaria/background_anna_maria_van_schurman.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000030_annamaria/schurman.png"
@@ -292,7 +292,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000031_buysballot",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000031_buysballot/background_nassau_buys_ballot_sun.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000031_buysballot/buys.png"
@@ -330,7 +330,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000032_brinno",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000032_brinno/background_Brinno.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000032_brinno/brinno.png"
@@ -368,7 +368,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000033_sun",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000033_sun/background_nassau_buys_ballot_sun.jpg"
         },
         "character": {
           "image": "/assets/data-models/stories/20201000033_sun/bertken.png"
@@ -406,7 +406,7 @@
         "@id": "https://utrechttimemachine.nl/stories/20201000034_oracle_end",
         "@type": "https://utrechttimemachine.nl/scene-types/dialogue",
         "background": {
-          "image": "/assets/data-models/stories/2019100005_neude_executions/background.jpg"
+          "image": "/assets/data-models/stories/20201000034_oracle_end/background_end_basilisk.jpg"
         },
         "character": {
           "image": ""
