@@ -2,7 +2,7 @@
   {
     "@id": "https://utrechttimemachine.nl/stories/oracle_start",
     "@type": "https://utrechttimemachine.nl/ontology/story",
-    "title": "Sister Bertken aka the Oracle",
+    "title": "The Oracle",
     "lang": "en",
     "description": "Berta Jacobs was the illegitimate child in the famous Lichtenberg family.",
     "featured-image": "/assets/data-models/stories/20201000024_oracle_start/random-character-image.gif",
@@ -40,7 +40,7 @@
   {
     "@id": "https://utrechttimemachine.nl/stories/villon",
     "@type": "https://utrechttimemachine.nl/ontology/story",
-    "title": "François de Montcorbier aka François Villon",
+    "title": "François Villon",
     "lang": "en",
     "description": "The cursed Poet. François de Montcorbier took the name of his guardian Guillaume de Villon. He took François to his home after the death of his father.",
     "featured-image": "/assets/data-models/stories/20201000025_villon/random-character-image.gif",
@@ -382,7 +382,7 @@
   {
     "@id": "https://utrechttimemachine.nl/stories/oracle_end",
     "@type": "https://utrechttimemachine.nl/ontology/story",
-    "title": "Basilisk end fight",
+    "title": "Basilisk",
     "lang": "en",
     "description": "Some heroes would go into the cellar to defeat the basilisk but they met the basilisk’ deadly gaze. All died.",
     "featured-image": "/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png",
