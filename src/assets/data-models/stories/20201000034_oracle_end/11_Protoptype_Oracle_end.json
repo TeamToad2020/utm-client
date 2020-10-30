@@ -22,7 +22,7 @@
 	{
 		"title": "Death end",
 		"tags": "",
-		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/random-character-image.gif[/img]\n\n\"You fool! You have doomed us all!\"\n\n[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\n\nBasilisk: Screeeeeechhh \n\n\n\"Can you hear it? \n\nThe Basilisk is celebrating its victory.\"\n\n\nThe Basilisk dances in victory. \n\n\nThe rift opens and swallows everything in Utrecht and spreads through the world. \n\nThe screen goes white. \n\n\"Congratulations the world has ended because of you!\"\n\n[[ Oh No! I didn't look |Continue]]  [[Ok, fine by me |end game coward]]",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\n\"You fool! You have doomed us all!\"\n\n[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\n\nBasilisk: Screeeeeechhh \n\n\n\"Can you hear it? \n\nThe Basilisk is celebrating its victory.\"\n\n\nThe Basilisk dances in victory. \n\n\nThe rift opens and swallows everything in Utrecht and spreads through the world. \n\nThe screen goes white. \n\n\"Congratulations the world has ended because of you!\"\n\n[[ Oh No! I didn't look |Continue]]  [[Ok, fine by me |end game coward]]",
 		"position": {
 			"x": 7314,
 			"y": -806
@@ -32,7 +32,7 @@
 	{
 		"title": "GotoEnd2",
 		"tags": "addBasiliskMedal",
-		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/random-character-image.gif[/img]\n\n\"Congratulations Chosen One, you have saved the World!\"\n\n\n\"Here is your reward, take a screenshot now before it goes away\"\n\n [[pick up reward|pick up reward button]]",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\n\"Congratulations Chosen One, you have saved the World!\"\n\n\n\"Here is your reward, take a screenshot now before it goes away\"\n\n [[pick up reward|pick up reward button]]",
 		"position": {
 			"x": 7988,
 			"y": -112
@@ -52,7 +52,7 @@
 	{
 		"title": "pick up reward button",
 		"tags": "",
-		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/random-character-image.gif[/img]\n\nTake a screenshot\n\n\"Goodbye Chosen One\"",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\nTake a screenshot\n\n\"Goodbye Chosen One\"",
 		"position": {
 			"x": 7960,
 			"y": 508
