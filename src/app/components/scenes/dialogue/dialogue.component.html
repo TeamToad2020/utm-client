@@ -15,8 +15,11 @@
     </ion-button>
     <div *ngIf="!storyScene?.answers.length">
       <ion-button color="dark" (click)="returnToMap()"
-        >Return to Map.</ion-button
-      >
+        >Return to Map.
+      </ion-button>
+      <ion-button color="dark" (click)="goToCharacterPage()"
+        >More information on character.
+      </ion-button>
     </div>
   </div>
 </ion-content>

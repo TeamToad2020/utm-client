@@ -93,6 +93,10 @@ export class DialogueComponent implements OnInit {
     this.router.navigate(['map']);
   }
 
+  goToCharacterPage() {
+    console.log("You have gone to the character page");
+  }
+
   setStyling() {
     // TODO; do through Renderer, which declined my request; probably due to sanitation policy
     if (this.seq['color-scheme']) {
