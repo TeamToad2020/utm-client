@@ -33,11 +33,34 @@ export class StoriesService {
       this.updateSelectedStories();
     });
 
+    this.selected.subscribe((stories: Story[]) => {
+      if (!stories || stories.length < 1) {
+        return;
+      }
+      localStorage.setItem('storyState', JSON.stringify(stories));
+    });
+
     this.timePeriod.filterRange.subscribe(() => {
       this.updateSelectedStories();
     });
 
     this.update();
+  }
+
+  initFromPersistent() {
+    // This function is ran on opening the application.
+    // For this prototype we re-use it to set the initial state to localStorage if available.
+    const persistentStoryState: Story[] | null = JSON.parse(
+      localStorage.getItem('storyState')
+    );
+    // console.log("INIT STATE", this.selected.getValue(), persistentStoryState); // DEBUG
+
+    if (persistentStoryState) {
+      this.all.next(persistentStoryState);
+      this.setSelectedStations(persistentStoryState);
+    } else {
+      this.setSelectedStations(this.all.getValue());
+    }
   }
 
   async update() {
@@ -60,6 +83,7 @@ export class StoriesService {
     this.selected.next([]); // Reset, in case the current selection contains deleted items
     this.filtered.next([]); // Reset, in case the current selection contains deleted items
     this.currentlyViewed.next(null);
+    this.initFromPersistent();
   }
 
   // Note that currently only point features are supported. TODO: extend this.
@@ -218,6 +242,6 @@ export class StoriesService {
   }
 
   selectAll() {
-    this.setSelectedStations(this.all.getValue());
+    // this.setSelectedStations(this.all.getValue());
   }
 }
