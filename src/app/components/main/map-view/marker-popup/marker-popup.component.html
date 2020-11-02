@@ -16,7 +16,10 @@
     <p *ngIf="story.state === storyState.Locked" class="locked">
       Station locked. Come back later
     </p>
-    <p *ngIf="story.state === storyState.Selected" class="start">
+    <p *ngIf="story.state === storyState.Selected && !isInRange" class="locked">
+      Station not close enough.
+    </p>
+    <p *ngIf="story.state === storyState.Selected && isInRange" class="start">
       Start your adventure!
     </p>
     <p *ngIf="story.state === storyState.Finished" class="finished">
@@ -29,7 +32,9 @@
       size="small"
       (click)="startStory(story)"
       [disabled]="
-        story.state === storyState.Locked || story.state === storyState.Finished
+        story.state === storyState.Locked
+        || story.state === storyState.Finished
+        || !isInRange
       "
     >
       <ion-icon name="play" class="ion-margin-end"></ion-icon>
@@ -62,12 +67,11 @@
       Collect!
     </ion-button>
 
-    <ion-button
-      color="primary"
-      size="small"
-      (click)="goToCharacterPage()"
-    >
-    <ion-icon name="information-circle-outline" class="ion-margin-end"></ion-icon>
+    <ion-button color="primary" size="small" (click)="goToCharacterPage()">
+      <ion-icon
+        name="information-circle-outline"
+        class="ion-margin-end"
+      ></ion-icon>
       More information
     </ion-button>
   </ion-row>

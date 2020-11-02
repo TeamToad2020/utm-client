@@ -18,6 +18,7 @@ export class MarkerPopupComponent implements OnInit {
   story: Story;
   sources: any[];
   storyState = StoryState;
+  isInRange = true;
 
   constructor(
     stories: StoriesService,
@@ -39,9 +40,9 @@ export class MarkerPopupComponent implements OnInit {
   ngOnInit() {
     this.story = this.routes.getSelectedStory();
     console.log(this.story.stations[0]);
-    console.log(
-      this.stations.getStationById(this.story.stations[0]['@id']).isInRange
-    );
+    this.isInRange = this.stations.getStationById(
+      this.story.stations[0]['@id']
+    ).isInRange;
   }
 
   async DismissPopover() {
