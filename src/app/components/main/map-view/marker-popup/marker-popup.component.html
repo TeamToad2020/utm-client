@@ -1,25 +1,74 @@
-<p>
-  <strong>{{ story.title }}</strong
-  ><br />
-  {{ story.description }}
-</p>
+<ion-grid>
+  <ion-row>
+    <ion-col size="7">
+      <p>
+        <strong>{{ story.title }}</strong
+        ><br />
+      </p>
+      <hr />
+      <p>{{ story.description }}</p>
+    </ion-col>
+    <ion-col>
+      <img [src]="story.featured - image" alt="" height="50px" width="50px" />
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <p *ngIf="story.state === storyState.Locked" class="locked">
+      Station locked. Come back later
+    </p>
+    <p *ngIf="story.state === storyState.Selected" class="start">
+      Start your adventure!
+    </p>
+    <p *ngIf="story.state === storyState.Finished" class="finished">
+      You have already depetrified {{ story.title }}
+    </p>
 
-<p *ngIf="story.state === storyState.Locked">
-  Station locked. Come back later
-</p>
-<p *ngIf="story.state === storyState.Selected">
-  Start your adventure!
-</p>
-<p *ngIf="story.state === storyState.Finished">
-  You have already depetrified {{story.title}}
-</p>
+    <ion-button
+      *ngIf="story.title != 'Basilisk' && story.title != 'Sun'"
+      color="primary"
+      size="small"
+      (click)="startStory(story)"
+      [disabled]="
+        story.state === storyState.Locked || story.state === storyState.Finished
+      "
+    >
+      <ion-icon name="play" class="ion-margin-end"></ion-icon>
+      Depetrify!
+    </ion-button>
 
-<ion-button
-  color="primary"
-  size="small"
-  (click)="startStory(story)"
-  [disabled]="story.state === storyState.Locked || story.state === storyState.Finished"
->
-  <ion-icon name="play" class="ion-margin-end"></ion-icon>
-  Depetrify!
-</ion-button>
+    <ion-button
+      *ngIf="story.title === 'Basilisk'"
+      color="primary"
+      size="small"
+      (click)="startStory(story)"
+      [disabled]="
+        story.state === storyState.Locked || story.state === storyState.Finished
+      "
+    >
+      <ion-icon name="warning" class="ion-margin-end"></ion-icon>
+      Into battle!
+    </ion-button>
+
+    <ion-button
+      *ngIf="story.title === 'Sun'"
+      color="primary"
+      size="small"
+      (click)="startStory(story)"
+      [disabled]="
+        story.state === storyState.Locked || story.state === storyState.Finished
+      "
+    >
+      <ion-icon name="play" class="ion-margin-end"></ion-icon>
+      Collect!
+    </ion-button>
+
+    <ion-button
+      color="primary"
+      size="small"
+      (click)="goToCharacterPage()"
+    >
+    <ion-icon name="information-circle-outline" class="ion-margin-end"></ion-icon>
+      More information
+    </ion-button>
+  </ion-row>
+</ion-grid>

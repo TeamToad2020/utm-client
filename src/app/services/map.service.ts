@@ -576,6 +576,7 @@ export class MapService {
         // Create a popover that is able to start the selected story
         const popover = await this.popoverController.create({
           component: MarkerPopupComponent,
+          cssClass: 'PopoverCSS',
           translucent: true,
         });
         return await popover.present();

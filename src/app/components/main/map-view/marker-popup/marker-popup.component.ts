@@ -80,4 +80,8 @@ export class MarkerPopupComponent implements OnInit {
         break;
     }
   }
+
+  goToCharacterPage() {
+    console.log("You have gone to the character page");
+  }
 }
