@@ -6,6 +6,7 @@ import { Platform } from '@ionic/angular';
 import { Browser } from '@capacitor/core';
 import { Router } from '@angular/router';
 import { PopoverController } from '@ionic/angular';
+import { StationsService } from '../../../../services/stations.service';
 // import { MapInfoUIService } from '../../../../services/map-info-ui.service';
 
 @Component({
@@ -23,6 +24,7 @@ export class MarkerPopupComponent implements OnInit {
     public platform: Platform,
     public router: Router,
     public routes: RoutesService,
+    private stations: StationsService,
     // public mapInfoUI: MapInfoUIService
     private popoverController: PopoverController
   ) {
@@ -36,6 +38,10 @@ export class MarkerPopupComponent implements OnInit {
 
   ngOnInit() {
     this.story = this.routes.getSelectedStory();
+    console.log(this.story.stations[0]);
+    console.log(
+      this.stations.getStationById(this.story.stations[0]['@id']).isInRange
+    );
   }
 
   async DismissPopover() {
@@ -82,6 +88,6 @@ export class MarkerPopupComponent implements OnInit {
   }
 
   goToCharacterPage() {
-    console.log("You have gone to the character page");
+    console.log('You have gone to the character page');
   }
 }
