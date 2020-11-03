@@ -17,8 +17,12 @@
       <ion-button color="dark" (click)="returnToMap()"
         >Return to Map.
       </ion-button>
-      <ion-button color="dark" (click)="goToCharacterPage()"
-        >More information on character.
+      <ion-button
+        *ngIf="story.title != 'Sun'"
+        color="dark"
+        (click)="goToCharacterPage()"
+        >
+        More information on character.
       </ion-button>
     </div>
   </div>
