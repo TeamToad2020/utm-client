@@ -19,12 +19,29 @@
     <p *ngIf="story.state === storyState.Selected" class="start">
       Start your adventure!
     </p>
-    <p *ngIf="story.state === storyState.Finished" class="finished">
+    <p
+    *ngIf="story.state === storyState.Finished && story.title != 'Basilisk' && story.title != 'Sun' && story.title != 'The Oracle'"
+    class="finished">
       You have already depetrified {{ story.title }}
     </p>
+    <p
+    *ngIf="story.state === storyState.Finished && story.title === 'The Oracle'"
+    class="finished">
+      You have already talked to {{ story.title }}
+    </p>
+    <p
+    *ngIf="story.state === storyState.Finished && story.title === 'Sun'"
+    class="finished">
+      You have already collected the {{ story.title }}
+    </p>
+    <p
+    *ngIf="story.state === storyState.Finished && story.title === 'Basilisk'"
+    class="finished">
+      You have already battled the {{ story.title }}
+  </p>
 
     <ion-button
-      *ngIf="story.title != 'Basilisk' && story.title != 'Sun'"
+      *ngIf="story.title != 'Basilisk' && story.title != 'Sun' && story.title != 'The Oracle'"
       color="primary"
       size="small"
       (click)="startStory(story)"
@@ -34,6 +51,19 @@
     >
       <ion-icon name="play" class="ion-margin-end"></ion-icon>
       Depetrify!
+    </ion-button>
+
+    <ion-button
+      *ngIf="story.title === 'The Oracle'"
+      color="primary"
+      size="small"
+      (click)="startStory(story)"
+      [disabled]="
+        story.state === storyState.Locked || story.state === storyState.Finished
+      "
+    >
+      <ion-icon name="play" class="ion-margin-end"></ion-icon>
+      Talk to oracle!
     </ion-button>
 
     <ion-button
