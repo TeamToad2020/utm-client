@@ -63,6 +63,7 @@
     </ion-button>
 
     <ion-button
+      *ngIf="story.title != 'Sun'"
       color="primary"
       size="small"
       (click)="goToCharacterPage()"
