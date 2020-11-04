@@ -55,3 +55,8 @@ markdown p img {
   height: 100%;
   width: 100%;
 }
+
+.character-sheet-popover {
+  --width: 90%;
+  --max-width: max-content;
+}
