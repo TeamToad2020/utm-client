@@ -1,0 +1,41 @@
+:host {
+  .character-sheet {
+    max-width: 500px;
+    margin: auto;
+    .header {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+
+      .image {
+        margin: 5px;
+        margin-left: 0;
+        img {
+          border-radius: 15px;
+        }
+        a {
+          font-size: 0.8em;
+        }
+      }
+    }
+    .meta-data,
+    .body {
+      span {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.8em;
+        display: block;
+      }
+    }
+    .meta-data div {
+      margin: 10px;
+    }
+    .body div {
+      margin: 10px;
+      margin-left: 0;
+      text-align: justify;
+    }
+    .sources a {
+      display: block;
+    }
+  }
+}
