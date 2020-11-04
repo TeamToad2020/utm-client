@@ -25,10 +25,20 @@ import { VgCoreModule } from 'videogular2/compiled/src/core/core';
 import { VgControlsModule } from 'videogular2/compiled/src/controls/controls';
 import { MapViewModule } from './components/main/map-view/map-view.module';
 import { MarkerPopupComponent } from './components/main/map-view/marker-popup/marker-popup.component';
+import { CharacterSheetComponent } from './components/character-sheet/character-sheet.component';
 
 @NgModule({
-  declarations: [AppComponent, YarnTesterViewComponent],
-  entryComponents: [SourceTooltipComponent, SourceComponent, MarkerPopupComponent],
+  declarations: [
+    AppComponent,
+    YarnTesterViewComponent,
+    CharacterSheetComponent,
+  ],
+  entryComponents: [
+    SourceTooltipComponent,
+    SourceComponent,
+    MarkerPopupComponent,
+    CharacterSheetComponent,
+  ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
@@ -43,7 +53,7 @@ import { MarkerPopupComponent } from './components/main/map-view/marker-popup/ma
     DeviceDetectorModule.forRoot(),
     VgCoreModule,
     VgControlsModule,
-    MapViewModule
+    MapViewModule,
   ],
   providers: [
     StatusBar,

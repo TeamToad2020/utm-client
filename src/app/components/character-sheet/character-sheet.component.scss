@@ -1,10 +1,11 @@
 :host {
   .character-sheet {
     max-width: 500px;
-    margin: auto;
+    margin: 10px;
     .header {
       display: grid;
       grid-template-columns: 2fr 3fr;
+      align-items: center;
 
       .image {
         margin: 5px;
