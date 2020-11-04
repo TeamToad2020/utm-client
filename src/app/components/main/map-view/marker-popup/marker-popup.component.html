@@ -16,7 +16,7 @@
     <p *ngIf="story.state === storyState.Locked" class="locked">
       Station locked. Come back later
     </p>
-    <p *ngIf="story.state === storyState.Selected" class="start">
+    <p *ngIf="story.state === storyState.Selected && story.title === 'The Oracle'" class="start">
       Start your adventure!
     </p>
     <p
