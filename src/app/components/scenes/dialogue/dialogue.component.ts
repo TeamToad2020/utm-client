@@ -5,11 +5,12 @@ import {
 } from '../../../services/story-player.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { skipWhile } from 'rxjs/operators';
-import { DialogueSeq } from '../../../models/story.model';
+import { SeqType, Story, StoryState, DialogueSeq } from '../../../models/story.model';
 import { StoriesService } from '../../../services/stories.service';
 import { Location } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { YarnItem } from '../../../models/yarn-item.model';
+import { RoutesService } from '../../../services/routes.service';
 
 @Component({
   selector: 'utm-dialogue',
@@ -18,7 +19,7 @@ import { YarnItem } from '../../../models/yarn-item.model';
 })
 export class DialogueComponent implements OnInit {
   storyScene: StoryNode;
-
+  story: Story;
   storyId: string;
   seqId: string;
   seq: DialogueSeq;
@@ -28,6 +29,7 @@ export class DialogueComponent implements OnInit {
     private router: Router,
     private stories: StoriesService,
     private route: ActivatedRoute,
+    public routes: RoutesService,
     private location: Location,
     private renderer: Renderer2,
     private host: ElementRef,
@@ -51,6 +53,7 @@ export class DialogueComponent implements OnInit {
 
     this.storyId = this.route.snapshot.paramMap.get('storyId');
     this.seqId = this.route.snapshot.paramMap.get('seqId');
+    this.story = this.routes.getSelectedStory();
 
     // Make sure story URL is set
     if (!this.storyId || !this.seqId) {
