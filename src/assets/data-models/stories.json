@@ -4,7 +4,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "The Oracle",
     "lang": "en",
-    "description": "Berta Jacobs was the illegitimate child in the famous Lichtenberg family.",
+    "description": "Guide and recluse",
     "featured-image": "/assets/data-models/stories/20201000024_oracle_start/bertken.png",
     "hidden": false,
     "authors": [
@@ -42,7 +42,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "François Villon",
     "lang": "en",
-    "description": "The cursed Poet. François de Montcorbier took the name of his guardian Guillaume de Villon. He took François to his home after the death of his father.",
+    "description": "Cursed Poet/ Vagabond",
     "featured-image": "/assets/data-models/stories/20201000025_villon/villon.png",
     "hidden": false,
     "authors": [
@@ -80,7 +80,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "Malgosia Fiebig",
     "lang": "en",
-    "description": "Was the Dom Tower’s first woman carillonist in over three hundred centuries.",
+    "description": "Carillonist",
     "featured-image": "/assets/data-models/stories/20201000026_carillionist/malgosia.png",
     "hidden": false,
     "authors": [
@@ -118,7 +118,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "Jan van den Doem",
     "lang": "en",
-    "description": "Jan designed the Dom Tower and is responsible for the appearance of the tower today.",
+    "description": "master builder and architect",
     "featured-image": "/assets/data-models/stories/20201000027_doem/doem.png",
     "hidden": false,
     "authors": [
@@ -156,7 +156,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "Truus van Lier",
     "lang": "en",
-    "description": "Law student and member of the student resistance group CS-6 during WWII.",
+    "description": "Law student and member of the student resistance group CS-6 during WWII",
     "featured-image": "/assets/data-models/stories/20201000028_truus/truus.png",
     "hidden": false,
     "authors": [
@@ -194,7 +194,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "Jan van Nassau",
     "lang": "en",
-    "description": "Was born into the noble House of Nassau.",
+    "description": "Count",
     "featured-image": "/assets/data-models/stories/20201000029_nassau/jannassau.png",
     "hidden": false,
     "authors": [
@@ -232,7 +232,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "Anna Maria van Schurman",
     "lang": "en",
-    "description": "Anna Maria van Schurman was the first female student in the Netherlands.",
+    "description": "Student, poet, theologist, humanist",
     "featured-image": "/assets/data-models/stories/20201000030_annamaria/schurman.png",
     "hidden": false,
     "authors": [
@@ -270,7 +270,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "Buys Ballot",
     "lang": "en",
-    "description": "Buys Ballot was famous for his observation of wind and his meteorological law.",
+    "description": "Meteorologist, physicist, chemist",
     "featured-image": "/assets/data-models/stories/20201000031_buysballot/buys.png",
     "hidden": false,
     "authors": [
@@ -308,7 +308,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "Brinno",
     "lang": "en",
-    "description": "Leader of the Cananefates. Under his leadership, revolted against the Romans.",
+    "description": "Cananefate Warrior",
     "featured-image": "/assets/data-models/stories/20201000032_brinno/brinno.png",
     "hidden": false,
     "authors": [
@@ -384,7 +384,7 @@
     "@type": "https://utrechttimemachine.nl/ontology/story",
     "title": "Basilisk",
     "lang": "en",
-    "description": "Some heroes would go into the cellar to defeat the basilisk but they met the basilisk’ deadly gaze. All died.",
+    "description": "Mythical creature",
     "featured-image": "/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png",
     "hidden": false,
     "authors": [

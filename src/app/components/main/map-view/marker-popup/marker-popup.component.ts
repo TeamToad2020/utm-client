@@ -48,6 +48,7 @@ export class MarkerPopupComponent implements OnInit {
     });
     this.routes.selectedStoryIdx.subscribe(selectedStoryIdx => {
       story = this.routes.getSelectedStory();
+      console.log(story.description);
     });
     // TODO: Implement actual sequence logic here
     // For now, only load first sequence item
@@ -82,6 +83,6 @@ export class MarkerPopupComponent implements OnInit {
   }
 
   goToCharacterPage() {
-    console.log("You have gone to the character page");
+    console.log('You have gone to the character page');
   }
 }
