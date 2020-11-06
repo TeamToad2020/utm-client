@@ -40,6 +40,11 @@ export class MarkerPopupComponent implements OnInit {
   ngOnInit() {
     this.story = this.routes.getSelectedStory();
     console.log(this.story.stations[0]);
+    //Un comment to enable geolocation feature.
+    //this.GeolocationFeature();
+  }
+
+  GeolocationFeature() {
     this.isInRange = this.stations.getStationById(
       this.story.stations[0]['@id']
     ).isInRange;
