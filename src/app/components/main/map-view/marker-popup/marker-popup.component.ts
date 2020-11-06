@@ -6,6 +6,7 @@ import { Platform } from '@ionic/angular';
 import { Browser } from '@capacitor/core';
 import { Router } from '@angular/router';
 import { PopoverController } from '@ionic/angular';
+import { CharacterSheetComponent } from '../../../character-sheet/character-sheet.component';
 // import { MapInfoUIService } from '../../../../services/map-info-ui.service';
 
 @Component({
@@ -81,7 +82,15 @@ export class MarkerPopupComponent implements OnInit {
     }
   }
 
-  goToCharacterPage() {
-    console.log("You have gone to the character page");
+  async goToCharacterPage() {
+    const popover = await this.popoverController.create({
+      component: CharacterSheetComponent,
+      componentProps: {
+        story: this.story,
+        storyId: this.story["@id"]
+      },
+      cssClass: 'character-sheet-popover',
+    });
+    return await popover.present();
   }
 }

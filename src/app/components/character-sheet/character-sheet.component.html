@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="character-sheet">
+    <div class="header">
+      <div class="image">
+        <img [src]="charSheet.image.imageUrl" [alt]="charSheet.name" />
+        <a [href]="charSheet.image.sourceUrl">{{
+          charSheet.image.sourceName
+        }}</a>
+      </div>
+      <div class="meta-data">
+        <div><span>Name:</span> {{ charSheet.name }}</div>
+        <div><span>Type:</span> {{ charSheet.type }}</div>
+        <div><span>Lifespan:</span> {{ charSheet.lifespan }}</div>
+      </div>
+    </div>
+    <div class="body">
+      <div><span>Origin:</span> {{ charSheet.origin }}</div>
+      <div><span>Story:</span> {{ charSheet.story }}</div>
+      <div class="sources">
+        <span>Sources:</span>
+        <a *ngFor="let source of charSheet.sources" [href]="source">{{
+          source
+        }}</a>
+      </div>
+    </div>
+  </div>
+</ion-content>

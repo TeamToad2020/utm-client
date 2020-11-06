@@ -11,6 +11,8 @@ import { Location } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { YarnItem } from '../../../models/yarn-item.model';
 import { RoutesService } from '../../../services/routes.service';
+import { PopoverController } from '@ionic/angular';
+import { CharacterSheetComponent } from '../../character-sheet/character-sheet.component';
 
 @Component({
   selector: 'utm-dialogue',
@@ -33,7 +35,8 @@ export class DialogueComponent implements OnInit {
     private location: Location,
     private renderer: Renderer2,
     private host: ElementRef,
-    private http: HttpClient
+    private http: HttpClient,
+    private popoverController: PopoverController
   ) {}
 
   async ngOnInit() {
@@ -68,6 +71,10 @@ export class DialogueComponent implements OnInit {
     this.storyScene = this.storyPlayer.next();
   }
 
+  async DismissPopover() {
+    await this.popoverController.dismiss();
+  }
+
   async loadDialogue(): Promise<void> {
     return new Promise(resolve => {
       // check if stories are already loaded; if not, await
@@ -96,8 +103,16 @@ export class DialogueComponent implements OnInit {
     this.router.navigate(['map']);
   }
 
-  goToCharacterPage() {
-    console.log("You have gone to the character page");
+  async goToCharacterPage() {
+    const popover = await this.popoverController.create({
+      component: CharacterSheetComponent,
+      componentProps: {
+        story: this.story,
+        storyId: this.story["@id"]
+      },
+      cssClass: 'character-sheet-popover',
+    });
+    return await popover.present();
   }
 
   setStyling() {
