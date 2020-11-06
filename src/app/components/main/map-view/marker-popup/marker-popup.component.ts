@@ -85,6 +85,10 @@ export class MarkerPopupComponent implements OnInit {
   async goToCharacterPage() {
     const popover = await this.popoverController.create({
       component: CharacterSheetComponent,
+      componentProps: {
+        story: this.story,
+        storyId: this.story["@id"]
+      },
       cssClass: 'character-sheet-popover',
     });
     return await popover.present();
