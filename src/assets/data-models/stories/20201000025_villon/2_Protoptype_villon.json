@@ -2,7 +2,7 @@
 	{
 		"title": "GotoVillon",
 		"tags": "",
-		"body": "\"Merci stranger\"\n\n\"Oh non! La police are ici!\"\n\nVillon runs away.\n\n[[Oh no! He stole my wallet-I'll tackle him!|Stolenwallet]] [[He stole my wallet!- \"Hey wait up!\"|Waitup]]",
+		"body": "[img]/assets/data-models/stories/20201000025_villon/villon.png[/img]\n\n\"Merci stranger!\n\nOh non! La police are ici!\"\n\n[i]Villon runs away.[/i]\n\n[[Oh no! He stole my wallet-I'll tackle him!|Stolenwallet]] [[He stole my wallet!- \"Hey wait up!\"|Waitup]]",
 		"position": {
 			"x": 1702,
 			"y": 261
@@ -12,7 +12,7 @@
 	{
 		"title": "Stolenwallet",
 		"tags": "",
-		"body": "\"You don't have to be violent mon ami.\n\nYou looked very heavy and I just wanted to relieve you of the weight\"\n\n\nVillon gives back the wallet and runs away again.\n\nYou look down and see a page of sheet music on the ground. It must have fallen when you tackled him.\n\n [[Pick up paper|Pick up paper button]]",
+		"body": "[img]/assets/data-models/stories/20201000025_villon/villon.png[/img]\n\n\"You don't have to be violent mon ami.\n\nYou looked very heavy and I just wanted to relieve you of the weight\"\n\n[i]Villon gives back the wallet and runs away again.[/i]\n\n[i]You look down and see a sheet music on the ground. It must have fallen when you tackled him.[/i]\n\n [[Pick up paper|Pick up paper button]]",
 		"position": {
 			"x": 1958,
 			"y": -45
@@ -22,9 +22,9 @@
 	{
 		"title": "Waitup",
 		"tags": "",
-		"body": "Villon stops for a second and turns around.\n \n\n [[Aren't you forgetting something?|Villon gives wallet back]] [[You thief!|Villon gives wallet back]]",
+		"body": "[img]/assets/data-models/stories/20201000025_villon/villon.png[/img]\n\n[i]Villon stops for a second and turns around.[/i]\n \n\n [[Aren't you forgetting something?|Villon gives wallet back]] [[You thief!|Villon gives wallet back]]",
 		"position": {
-			"x": 1975,
+			"x": 1977,
 			"y": 592
 		},
 		"colorID": 0
@@ -32,21 +32,21 @@
 	{
 		"title": "Villon gives wallet back",
 		"tags": "",
-		"body": "\"Me?\"\n\n\"Oh you mean the wallet? I don't know how that got there.\"\n\n \"Pardonne-moi mon ami!\"\n\n\nVillon gives back the wallet and runs away again.\n\n\nVillon drops a paper of sheet music \n\n [[Pick up paper|Pick up paper button]]",
+		"body": "[img]/assets/data-models/stories/20201000025_villon/villon.png[/img]\n\n\"Me?\n\nOh you mean the wallet? I don't know how that got there.\n\n\"Pardonne-moi mon ami!\"\n\n[i]Villon gives back the wallet and runs away again.[/i]\n\n[i]Villon drops a sheet music.[/i]\n\n [[Pick up paper|Pick up paper button]]",
 		"position": {
-			"x": 2228,
-			"y": 837
+			"x": 2230,
+			"y": 839
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Pick up paper button",
 		"tags": "addPaper addVillonMedal",
-		"body": "Oracle: \"Look at the back of the paper, it is addressed to the carillonist.\"",
+		"body": "[i]Look at the back of the paper, it is addressed to the carillonist.[/i]",
 		"position": {
 			"x": 2282,
 			"y": 232
 		},
-		"colorID": 0
+		"colorID": 7
 	}
 ]

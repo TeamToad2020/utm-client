@@ -2,7 +2,7 @@
 	{
 		"title": "GotoNassau",
 		"tags": "",
-		"body": "\"You took your time!\n\nDo you know who I am? \n\nWhy didn't you save me first?\n\nDon't you know I have other things to do!\"\n\n[[Be thankful that I saved you period. I can also re-petrify you if you're unhappy.|YouAchterlijkeGladiool]] [[Tell me more.|Nottime]]",
+		"body": "[img]/assets/data-models/stories/20201000029_nassau/jannassau.png[/img]\n\n\"You took your time!\n\nDo you know who I am? \n\nWhy didn't you save me earlier?\n\nDon't you know I have other things to do!\"\n\n[[Be thankful that I saved you at all. I can also re-petrify you if you're unhappy.|YouAchterlijkeGladiool]] [[Tell me more.|Nottime]]",
 		"position": {
 			"x": 3261,
 			"y": 253
@@ -12,7 +12,7 @@
 	{
 		"title": "Nottime",
 		"tags": "",
-		"body": "\"You plebs!\"\n\n\"Can't you see that I'm the brother of William of Orange?\n\nMy time is too valuable to waste on you.\n\nI have a declaration to sign!\"\n\n\nNassau looks in pocket for declaration \nNassau cannot find the declaration\n\n\"Huh were did go?\"\n\n[[ Give declaration|givedeclarationtonassau]]",
+		"body": "[img]/assets/data-models/stories/20201000029_nassau/jannassau.png[/img]\n\n\"You plebs!\n\n\"Can't you see that I'm the brother of William of Orange?\n\nMy time is too valuable to waste on you.\n\nI have the Union of Utrecht to sign!\"\n\n\n[i]Nassau looks in his pocket for the Union of Utrecht but he cannot find the declaration.[/i]\n\n\"Huh? Where did go?\"\n\n[[ Give Union of Utrecht|givedeclarationtonassau]]",
 		"position": {
 			"x": 3566,
 			"y": 595
@@ -22,7 +22,7 @@
 	{
 		"title": "YouAchterlijkeGladiool",
 		"tags": "",
-		"body": "\"You Achterlijke Gladiool!\"\n\n\"How dare you talk to me this way?!\n\nDo you want to be under the Spanish occupation?\n\nWe need to unite the northern provinces.\"\n\n [[Give declaration|givedeclarationtonassau]]",
+		"body": "[img]/assets/data-models/stories/20201000029_nassau/jannassau.png[/img]\n\n\"You Achterlijke Gladiool!\n\nHow dare you talk to me this way?!\n\nDo you want to be under the Spanish occupation?\n\nWe need to unite the northern provinces.\"\n\n [[Give Union of Utrecht |givedeclarationtonassau]]",
 		"position": {
 			"x": 3553,
 			"y": -57
@@ -30,19 +30,9 @@
 		"colorID": 0
 	},
 	{
-		"title": "Villon gives wallet back",
-		"tags": "",
-		"body": "\"Me?\"\n\n\"Oh you mean the wallet? I don't know how that got there.\"\n\n \"Pardonne-moi mon ami!\"\n\n\nVillon gives back the wallet and runs away again.\n\n\nVillon drops a paper of sheet music \n\n\nPick up paper button \n\nOracle: \"Look at the back of the paper is addressed to the Carilloner\"\n\n<<if visited(\"Villon\") is true>> [[ Go to the Carilloner|GotoCarilloner]] |]]\n\nRoute to next location appears",
-		"position": {
-			"x": 2221,
-			"y": 841
-		},
-		"colorID": 0
-	},
-	{
 		"title": "givedeclarationtonassau",
 		"tags": "removeUnionOfUtrecht",
-		"body": "\"You dief! How did you steal it?\"\n\nNassau does not give you time to respond. \n\nHe signs the declaration with a quill and throws it on the ground after using it and leaves.\n\n[[pick up quill|pick up quill button]]",
+		"body": "[img]/assets/data-models/stories/20201000029_nassau/jannassau.png[/img]\n\n\"You dief! How did you steal it?\"\n\n[i]Nassau does not give you time to respond. [/i]\n\n[i]He signs the declaration with a quill, throws it on the ground after using it, and leaves.[/i]\n[[pick up quill|pick up quill button]]",
 		"position": {
 			"x": 3568,
 			"y": 272

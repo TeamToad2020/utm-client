@@ -6,6 +6,8 @@ import { Platform } from '@ionic/angular';
 import { Browser } from '@capacitor/core';
 import { Router } from '@angular/router';
 import { PopoverController } from '@ionic/angular';
+import { StationsService } from '../../../../services/stations.service';
+import { CharacterSheetComponent } from '../../../character-sheet/character-sheet.component';
 // import { MapInfoUIService } from '../../../../services/map-info-ui.service';
 
 @Component({
@@ -17,12 +19,14 @@ export class MarkerPopupComponent implements OnInit {
   story: Story;
   sources: any[];
   storyState = StoryState;
+  isInRange = true;
 
   constructor(
     stories: StoriesService,
     public platform: Platform,
     public router: Router,
     public routes: RoutesService,
+    private stations: StationsService,
     // public mapInfoUI: MapInfoUIService
     private popoverController: PopoverController
   ) {
@@ -36,6 +40,15 @@ export class MarkerPopupComponent implements OnInit {
 
   ngOnInit() {
     this.story = this.routes.getSelectedStory();
+    console.log(this.story.stations[0]);
+    //Un comment to enable geolocation feature.
+    //this.GeolocationFeature();
+  }
+
+  GeolocationFeature() {
+    this.isInRange = this.stations.getStationById(
+      this.story.stations[0]['@id']
+    ).isInRange;
   }
 
   async DismissPopover() {
@@ -48,6 +61,7 @@ export class MarkerPopupComponent implements OnInit {
     });
     this.routes.selectedStoryIdx.subscribe(selectedStoryIdx => {
       story = this.routes.getSelectedStory();
+      console.log(story.description);
     });
     // TODO: Implement actual sequence logic here
     // For now, only load first sequence item
@@ -81,7 +95,15 @@ export class MarkerPopupComponent implements OnInit {
     }
   }
 
-  goToCharacterPage() {
-    console.log("You have gone to the character page");
+  async goToCharacterPage() {
+    const popover = await this.popoverController.create({
+      component: CharacterSheetComponent,
+      componentProps: {
+        story: this.story,
+        storyId: this.story['@id'],
+      },
+      cssClass: 'character-sheet-popover',
+    });
+    return await popover.present();
   }
 }

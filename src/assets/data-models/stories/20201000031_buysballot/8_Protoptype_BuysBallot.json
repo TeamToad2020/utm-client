@@ -2,7 +2,7 @@
 	{
 		"title": "GotoBuysBallot",
 		"tags": "",
-		"body": "\"Did you that see storm?! This is an excellent research subject. Yes, excellent!\"\n\n [[Give book|Give book button]]",
+		"body": "[img]/assets/data-models/stories/20201000031_buysballot/buys.png[/img]\n\n\"Did you that see storm?! This is an excellent research subject. Yes, excellent!\"\n\n [[Give book|Give book button]]",
 		"position": {
 			"x": 4467,
 			"y": 233
@@ -12,10 +12,10 @@
 	{
 		"title": "Give book button",
 		"tags": "removeBook",
-		"body": "\"Ah thank you! This was a close one. If it wasn't for this lightning rod, I'd have been electrocuted.\"\n\n\nBuys Ballot cuts the wire and takes out the sword from the ground and gives it to you.\n\n\n\"I have no use for it now, you can return it to its owner. I must document this exceptional weather phenomena at once!.\"\n\n [[Pick up sword|Pick up sword button]]",
+		"body": "[img]/assets/data-models/stories/20201000031_buysballot/buys.png[/img]\n\n\"Ah, thank you! This was a close one. If it wasn't for this lightning rod, I'd have been electrocuted.\"\n\n[i]Christophorus cuts the wire, takes out the sword from the ground, and gives it to you.[/i]\n\n\n\"I have no use for it now, you can return it to its owner. I must document these exceptional weather phenomena at once!\"\n\n [i]Christophorus immediately returns to his note-taking.[i] [[Pick up sword|Pick up sword button]]",
 		"position": {
-			"x": 4769,
-			"y": 215
+			"x": 4771,
+			"y": 212
 		},
 		"colorID": 0
 	},

@@ -223,6 +223,8 @@ export class StoryPlayerService {
           );
         }
         if (tag === 'addBasiliskMedal') {
+          var inventoryItemToAdd = tag.substring(3);
+          this.inventory.addItemToInventory(inventoryItemToAdd);
           let addItem = localStorage.getItem('collectedItems');
           let addItemArray = JSON.parse(addItem);
           addItemArray[9] = true;

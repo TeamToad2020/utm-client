@@ -2,7 +2,7 @@
 	{
 		"title": "GotoCarilloner",
 		"tags": "",
-		"body": "\"Oh Thank you. I'm glad to be freed from that brick prison!\"\n\n [[give paper|give paper button]]",
+		"body": "[img]/assets/data-models/stories/20201000026_carillionist/malgosia.png[/img]\n\n\n\"Oh?! Thank you. I'm glad to be freed from that brick prison.\"\n\n [[give paper|give paper button]]",
 		"position": {
 			"x": 2173,
 			"y": 262
@@ -12,7 +12,7 @@
 	{
 		"title": "give paper button",
 		"tags": "removePaper",
-		"body": "\"Ah, sheet music! Just what I needed, I'll exercise my rigid fingers immediately!\"\n\nCarillonist plays the song \n\n\"The Builder forgot his hammer. Will you please bring it to him for me? \nHe ran to the garden to take care of his flowers as soon as his shift ended.\"\n\n [[pick up hammer|pick up hammer button]]",
+		"body": "[img]/assets/data-models/stories/20201000026_carillionist/malgosia.png[/img]\n\n\"Ah, a sheet of music! Just what I needed, I'll exercise my rigid fingers immediately!\"\n\n[i]Carillonist plays the song[/i] \n\n\"The Builder forgot his hammer. Will you please bring it to him for me? \nHe ran to the garden to take care of his flowers as soon as his shift ended.\"\n\n [[pick up hammer|pick up hammer button]]",
 		"position": {
 			"x": 2457,
 			"y": 180

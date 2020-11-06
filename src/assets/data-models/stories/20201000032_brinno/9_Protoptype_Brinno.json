@@ -2,17 +2,17 @@
 	{
 		"title": "GotoBrinno",
 		"tags": "",
-		"body": "\"Soldier! The beast slayed so many of our army. \n\n [[Give Sword|Give Sword Button]]",
+		"body": "[img]/assets/data-models/stories/20201000032_brinno/brinno.png[/img]\n\n\"Soldier! The beast slaughtered so many of our people.\"\n\n [[Give Sword|Give Sword Button]]",
 		"position": {
-			"x": 4862,
-			"y": 236
+			"x": 4853,
+			"y": 238
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Give Sword Button",
-		"tags": "removeSword",
-		"body": "\"I attacked it with this very sword but it was futile.\n\nHis scales are as hard as diamond.\nHis eyes are made of fire. \n\nHis breath is putrid and will make you faint on the spot. \n\nBe brave soldier. A death in battle is a noble death.\"\n\n [[Run for your life- End game now!|Quit game coward]] [[That's a noble death!-For Utrecht!|Speak to Oracle]]",
+		"tags": "removeSword addBrinnoMedal",
+		"body": "[img]/assets/data-models/stories/20201000032_brinno/brinno.png[/img]\n\n\"I attacked it with this very sword but it was futile.\n\nHis scales are as hard as diamond.\nHis eyes are made of fire. \n\nHis breath is putrid and will make you faint on the spot. \n\nBe brave soldier. A death in battle is a noble death.\"\n\n [[Run for your life- End game now!|Quit game coward]] [[That's a noble death!-For Utrecht!|Speak to Oracle]]",
 		"position": {
 			"x": 5172,
 			"y": 233
@@ -22,16 +22,16 @@
 	{
 		"title": "Quit game coward",
 		"tags": "",
-		"body": "\"You fool! You have doomed us all!\"\n\n[img]/assets/data-models/stories/20201000024_oracle_start/Utrechtbasilisk_1.png[/img]\n\n\nBasilisk: Screeeeeechhh \n\n\"Can you hear it?\"\n\n\"The Basilisk is celebrating its victory.\"\n\n\nThe Basilisk dances in victory. \n\nThe rift opens and swallows everything in Utrecht and spreads through the world. \nThe screen goes white. \n\n\n\"Congratulations the world has ended because of you!\"\n [[ Oh No! I want to return to battle the basilisk|Speak to Oracle]] [[I'm okay with being a coward. End game please.|end game coward]]",
+		"body": "[img]/assets/data-models/stories/20201000024_oracle_start/bertken.png[/img]\n\"You fool! You have doomed us all!\"\n\n[img]/assets/data-models/stories/20201000032_brinno/Utrechtbasilisk_1.png[/img]\n\n\n\n[i]The Basilisk screams[/i]\n\n\"Can you hear it?\n\nThe Basilisk is celebrating its victory.\"\n\n\n[i]The Basilisk dances in victory. [/i]\n\n[i]The rift opens, swallows everything in Utrecht, and spreads through the world. [/i]\n\n\n\"Congratulations, the world has ended because of you!\"\n [[ Oh No! I want to return to battle the Basilisk|Speak to Oracle]] [[I'm okay with being a coward. End game please.|end game coward]]",
 		"position": {
-			"x": 5391,
-			"y": -51
+			"x": 5393,
+			"y": -55
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Speak to Oracle",
-		"tags": "addBrinnoMedal",
+		"tags": "",
 		"body": "",
 		"position": {
 			"x": 5565,

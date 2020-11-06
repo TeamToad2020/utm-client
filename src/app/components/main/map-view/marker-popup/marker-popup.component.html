@@ -16,37 +16,61 @@
     <p *ngIf="story.state === storyState.Locked" class="locked">
       Station locked. Come back later
     </p>
-    <p *ngIf="story.state === storyState.Selected && story.title === 'The Oracle'" class="start">
+    <p *ngIf="story.state === storyState.Selected && !isInRange" class="locked">
+      Station not close enough.
+    </p>
+    <p
+      *ngIf="
+        story.state === storyState.Selected && story.title === 'The Oracle'
+      "
+    >
       Start your adventure!
     </p>
     <p
-    *ngIf="story.state === storyState.Finished && story.title != 'Basilisk' && story.title != 'Sun' && story.title != 'The Oracle'"
-    class="finished">
+      *ngIf="
+        story.state === storyState.Finished
+        && story.title != 'Basilisk'
+        && story.title != 'Sun'
+        && story.title != 'The Oracle'
+      "
+      class="finished"
+    >
       You have already depetrified {{ story.title }}
     </p>
     <p
-    *ngIf="story.state === storyState.Finished && story.title === 'The Oracle'"
-    class="finished">
+      *ngIf="
+        story.state === storyState.Finished && story.title === 'The Oracle'
+      "
+      class="finished"
+    >
       You have already talked to {{ story.title }}
     </p>
     <p
-    *ngIf="story.state === storyState.Finished && story.title === 'Sun'"
-    class="finished">
+      *ngIf="story.state === storyState.Finished && story.title === 'Sun'"
+      class="finished"
+    >
       You have already collected the {{ story.title }}
     </p>
     <p
-    *ngIf="story.state === storyState.Finished && story.title === 'Basilisk'"
-    class="finished">
+      *ngIf="story.state === storyState.Finished && story.title === 'Basilisk'"
+      class="finished"
+    >
       You have already battled the {{ story.title }}
-  </p>
+    </p>
 
     <ion-button
-      *ngIf="story.title != 'Basilisk' && story.title != 'Sun' && story.title != 'The Oracle'"
+      *ngIf="
+        story.title != 'Basilisk'
+        && story.title != 'Sun'
+        && story.title != 'The Oracle'
+      "
       color="primary"
       size="small"
       (click)="startStory(story)"
       [disabled]="
-        story.state === storyState.Locked || story.state === storyState.Finished
+        story.state === storyState.Locked
+        || story.state === storyState.Finished
+        || !isInRange
       "
     >
       <ion-icon name="play" class="ion-margin-end"></ion-icon>
@@ -98,7 +122,10 @@
       size="small"
       (click)="goToCharacterPage()"
     >
-    <ion-icon name="information-circle-outline" class="ion-margin-end"></ion-icon>
+      <ion-icon
+        name="information-circle-outline"
+        class="ion-margin-end"
+      ></ion-icon>
       More information
     </ion-button>
   </ion-row>
