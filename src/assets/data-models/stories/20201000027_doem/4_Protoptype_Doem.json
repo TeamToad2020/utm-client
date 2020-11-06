@@ -2,9 +2,9 @@
 	{
 		"title": "GotoTheBuilder",
 		"tags": "",
-		"body": "\"Thank you Dakhaas!\"\n\n\n[[ Dakhaas? |Dakhaas]] [[ Who are you calling Dakhaas? Achterlijke gladiool!|Dakhaas]]",
+		"body": "[img]/assets/data-models/stories/20201000027_doem/doem.png[/img]\n\n\"Thank you Dakhaas!\"\n\n\n[[ Dakhaas? |Dakhaas]] [[ Who are you calling Dakhaas? Achterlijke gladiool!|Dakhaas]]",
 		"position": {
-			"x": 2495,
+			"x": 2500,
 			"y": 254
 		},
 		"colorID": 0
@@ -12,7 +12,7 @@
 	{
 		"title": "Dakhaas",
 		"tags": "",
-		"body": "\"Oh don't make a fuss about it. It's just a term of endearment.\"\n\n [[Give hammer|Give hammer button]]",
+		"body": "[img]/assets/data-models/stories/20201000027_doem/doem.png[/img]\n\n\"Oh, don't make a fuss about it. It's just a term of endearment.\"\n\n [[Give hammer|Give hammer button]]",
 		"position": {
 			"x": 2710,
 			"y": -150
@@ -22,7 +22,7 @@
 	{
 		"title": "Give hammer button",
 		"tags": "removeHammer",
-		"body": "\"Thanks! I'll need that later!\nHere, take these blomme. Could you give them to Truus? \n\nI admire her deeds a lot and I heard they are her favorite.\"\n\n [[pick up daffodils|pick up daffodils button]]",
+		"body": "[img]/assets/data-models/stories/20201000027_doem/doem.png[/img]\n\n\"Thanks! I'll need that later!\nHere, take these blomme. Could you give them to Truus? \n\nI really admire her strength of character and I heard they are her favorite.\"\n\n [[pick up daffodils|pick up daffodils button]]",
 		"position": {
 			"x": 3021,
 			"y": -74

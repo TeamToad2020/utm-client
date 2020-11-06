@@ -2,7 +2,7 @@
 	{
 		"title": "OracleAppears",
 		"tags": "",
-		"body": "\"Congratulations Chosen One, you have freed all the petrified figures, saving their lives!\"\n\n\n\"However, your quest is not yet over. \n\nYou must now defeat the Basilisk. \n\nBasilisks' weakness are their eyes.\n\nYou must find the most reflective surface on the Square.\n\nBe on your way Chosen One, time is ticking.\"\n\n[[ Go to the Sun|GototheSun]]",
+		"body": "[img]/assets/data-models/stories/20201000033_sun/bertken.png[/img]\n\n\"Congratulations Chosen One, you have freed all the petrified figures, saving their lives!\n\nHowever, your quest is not yet over. \n\nYou must now defeat the Basilisk. \n\nBasilisks' weakness are their eyes.\n\nYou must find the most reflective surface on the Square.\n\nBe on your way Chosen One, time is ticking.\"\n\n[[ Go to the Sun|GototheSun]]",
 		"position": {
 			"x": 5658,
 			"y": 233
@@ -12,7 +12,7 @@
 	{
 		"title": "GototheSun",
 		"tags": "",
-		"body": "[[Pick up sun|Pick up son button]]",
+		"body": "[img]/assets/data-models/stories/20201000033_sun/sun(academybuilding).png[/img]\n\n[[Pick up sun|Pick up son button]]",
 		"position": {
 			"x": 5947,
 			"y": 267
@@ -22,10 +22,10 @@
 	{
 		"title": "Pick up son button",
 		"tags": "addSun",
-		"body": "Basilisk: \"angry\" screeeeeech \n\nBasilisk retreats to the shadows of the Dom Tower. The Basilisk is ready to fight.\n\n [[Go to Dom Tower|Go to Dom Tower]]",
+		"body": "[img]/assets/data-models/stories/20201000033_sun/Utrechtbasilisk_1.png[/img]\n\n[i]The Basilisk screams angrily.[/i]\n\n[i]The Basilisk retreats to the shadows of the Dom Tower. The Basilisk is ready to fight.[/i]\n [[Go to Dom Tower|Go to Dom Tower]]",
 		"position": {
 			"x": 6308,
-			"y": 382
+			"y": 367
 		},
 		"colorID": 0
 	},
@@ -35,7 +35,7 @@
 		"body": "",
 		"position": {
 			"x": 6740,
-			"y": 207
+			"y": 209
 		},
 		"colorID": 0
 	}

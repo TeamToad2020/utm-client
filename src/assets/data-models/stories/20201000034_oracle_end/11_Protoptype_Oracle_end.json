@@ -1,72 +1,82 @@
 [
-  {
-    "title": "GoUnderDomTower",
-    "tags": "",
-    "body": "[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\nThe basilisk is hiding in the passage under the Dom Tower.\n\n\nThe basilisk sees you. \n\nIt starts rattling its scales. \n\nIt leans towards you, orienting its deadly gaze towards your face. \n\nA thunderstorm began to growl in its throat.\n\n[[ Look |Death end]] [[ Avert your eyes |Continue]]",
-    "position": {
-      "x": 4532,
-      "y": -681
-    },
-    "colorID": 1
-  },
-  {
-    "title": "Continue",
-    "tags": "",
-    "body": "[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\n[[Use the sun|Use sun button]]",
-    "position": {
-      "x": 6772,
-      "y": -224
-    },
-    "colorID": 0
-  },
-  {
-    "title": "Death end",
-    "tags": "",
-    "body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\n\"You fool! You have doomed us all!\"\n\n[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\n\nBasilisk: Screeeeeechhh \n\n\n\"Can you hear it? \n\nThe Basilisk is celebrating its victory.\"\n\n\nThe Basilisk dances in victory. \n\n\nThe rift opens and swallows everything in Utrecht and spreads through the world. \n\nThe screen goes white. \n\n\"Congratulations the world has ended because of you!\"\n\n[[ Oh No! I didn't look |Continue]]  [[Ok, fine by me |end game coward]]",
-    "position": {
-      "x": 7314,
-      "y": -806
-    },
-    "colorID": 0
-  },
-  {
-    "title": "GotoEnd2",
-    "tags": "addBasiliskMedal",
-    "body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\n\"Congratulations Chosen One, you have saved the World!\"\n\n\n\"Here is your reward, take a screenshot now before it goes away\"\n\n [[pick up reward|pick up reward button]]",
-    "position": {
-      "x": 7988,
-      "y": -112
-    },
-    "colorID": 0
-  },
-  {
-    "title": "Use sun button",
-    "tags": "removeSun",
-    "body": "[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\nYou take the Sun and put it in front of your face.\n\n\nThe basilisk jumps back with an angry snarl. \n\nBut it is too late. \n\nHis deadly power is transforming him into a statue. \n\nThe statue shatters. \n\nThe Stone transforms into dust and is aspirated by the time rift. \n\nThe rift slowly closes. \n\nThe Basilisk is defeated.\n\n[[Victory!|GotoEnd2]]",
-    "position": {
-      "x": 7224,
-      "y": -108
-    },
-    "colorID": 0
-  },
-  {
-    "title": "pick up reward button",
-    "tags": "",
-    "body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\nTake a screenshot\n\n\"Goodbye Chosen One\"",
-    "position": {
-      "x": 7960,
-      "y": 508
-    },
-    "colorID": 0
-  },
-  {
-    "title": "end game coward",
-    "tags": "",
-    "body": "End Game",
-    "position": {
-      "x": 7655,
-      "y": -820
-    },
-    "colorID": 0
-  }
+	{
+		"title": "GoUnderDomTower",
+		"tags": "",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\n[i]The Basilisk is hiding in the passage under the Dom Tower.[/i]\n\n[i]The Basilisk sees you.[/i]\n\n[i]It starts rattling its scales. [/i]\n\n[i]It leans towards you, orienting its deadly gaze towards your face.[/i]\n\n[i]A thunderstorm began to growl in its throat.[/i]\n[[ Look |Death end]] [[ Avert your eyes |Continue]]",
+		"position": {
+			"x": 4545,
+			"y": -687
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Continue",
+		"tags": "",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/sun(academybuilding).png[/img]\n\n[[Use the sun|Use sun button]]",
+		"position": {
+			"x": 6766,
+			"y": -222
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Death end",
+		"tags": "",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\"You fool! You have doomed us all!\"\n\n[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\n[i]The Basilisk screams[/i]\n\n\n\"Can you hear it? \n\nThe Basilisk is celebrating its victory.\"\n\n\n[i]The Basilisk dances in victory.[/i]\n\n\n[i]The rift opens, swallows everything in Utrecht, and spreads through the world.[/i]\n\n\"Congratulations, the world has ended because of you!\"\n\n[[ Oh No! I didn't look |Continue]]  [[Ok, fine by me |end game coward]]",
+		"position": {
+			"x": 7314,
+			"y": -806
+		},
+		"colorID": 0
+	},
+	{
+		"title": "GotoEnd2",
+		"tags": "addBasiliskMedal",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\n\"Congratulations Chosen One, you have saved Dom Square!\n\nHere is your reward, this will be very useful for your next quest.\"\n\n[img]/assets/data-models/stories/20201000034_oracle_end/rooster.png[/img]\n\n [[A rooster? Why?|pick up reward button]]  [[Next Quest? What do you mean?|pick up reward button]]",
+		"position": {
+			"x": 7993,
+			"y": -112
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Use sun button",
+		"tags": "removeSun",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/Utrechtbasilisk_1.png[/img]\n\n[i]You take the Sun and put it in front of your face.[/i]\n\n[i]The Basilisk jumps back with an angry snarl.[/i]\n\n[i]But it is too late.[/i]\n\n[i]His deadly power is transforming him into a statue.[/i]\n\n[i]The statue shatters.[/i]\n\n[i]The stone transforms into dust and is aspirated by the time rift.[/i]\n\n[i]The rift slowly closes.[/i]\n\n[i]The Basilisk is defeated.[/i]\n\n[[Victory!|GotoEnd2]]",
+		"position": {
+			"x": 7224,
+			"y": -108
+		},
+		"colorID": 0
+	},
+	{
+		"title": "pick up reward button",
+		"tags": "",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\n\"The Basilisk has been defeated at the Dom Square and part of the time rift has been closed,\n\nbut the stoney remains of the Basilisk have blown through the time rift into other parts of the city.\n\nThe rooster's crow is deadly to the Basilisk and the rooster will accompany you to your next quest.\n\nDo you want to continue?\" \n\n\n[[No thanks, I've had enough adventure.|end game coward]] [[Yes! Me and my rooster will save Utrecht again!|continue to next level]]",
+		"position": {
+			"x": 7973,
+			"y": 499
+		},
+		"colorID": 0
+	},
+	{
+		"title": "end game coward",
+		"tags": "",
+		"body": "End Game",
+		"position": {
+			"x": 7655,
+			"y": -820
+		},
+		"colorID": 0
+	},
+	{
+		"title": "continue to next level",
+		"tags": "",
+		"body": "[img]/assets/data-models/stories/20201000034_oracle_end/bertken.png[/img]\n\n\"A wise choice, Chosen One. Your next quest will take you to...\"\n\nLombok\nOvervecht\nMuseumkwartier",
+		"position": {
+			"x": 8250,
+			"y": 514
+		},
+		"colorID": 0
+	}
 ]

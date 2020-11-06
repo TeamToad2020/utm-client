@@ -2,17 +2,17 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "\"Chosen one, the integrity of time has been compromised.\nThe storm of 1674 has weakened the fabric of time and space, causing a time rift here and now.\"\n\n[[I'm intrigued! Why? |RestoringTheSquare]]  [[I'm not taking part in this|Lame user]]",
+		"body": "[img]/assets/data-models/stories/20201000024_oracle_start/bertken.png[/img]\n\"Chosen One, the integrity of time has been compromised.\nThe storm of 1674 has weakened the fabric of time and space, causing a time rift here and now.\"\n\n[[I'm intrigued! Why? |RestoringTheSquare]]  [[I'm not taking part in this|Lame user]]",
 		"position": {
 			"x": -413,
-			"y": 236
+			"y": 233
 		},
 		"colorID": 0
 	},
 	{
 		"title": "RestoringTheSquare",
 		"tags": "",
-		"body": "\"Now that they are restoring the Dom Tower the rift has been opened.\nSeveral historical figures  have been transported to the present, as well the basilisk of Utrecht.\"\n\n\"The terrible beast has left them petrified throughout the city.\n\nYou must free them and send them back to their timeline and defeat the Basilisk to prevent the collapse of history.\nIf you fail, the rift will grow bigger, sucking in Utrecht and its inhabitants, and eventually the entire world.\"\n\n\"If you succeed, you shall be rewarded for your bravery.\" \n[[I'm brave|continue brave]]  [[But how?|continue brave]]",
+		"body": "[img]/assets/data-models/stories/20201000024_oracle_start/bertken.png[/img]\n\n\"Now that they are restoring the Dom Tower the rift has been opened.\n\nSeveral historical figures  have been transported to the present, as well the Basilisk of Utrecht.\n\nThe terrible beast has left them petrified throughout the city.\n\nYou must free them and send them back to their time line and defeat the Basilisk to prevent the collapse of history.\n\nIf you fail, the rift will grow bigger, sucking in Utrecht and its inhabitants, and eventually the entire world.\n\nIf you succeed, you shall be rewarded for your bravery.\" \n[[I'm brave|continue brave]]  [[But how?|continue brave]]",
 		"position": {
 			"x": 309,
 			"y": 258
@@ -22,7 +22,7 @@
 	{
 		"title": "DoNotQuestionFate",
 		"tags": "",
-		"body": "\"It is not for us to question fate. Now be on your way. Time is wasting.\"\n [[okay|Nextlevel]]  [[But wait, I've some more questio...|Nextlevel]]",
+		"body": "[img]/assets/data-models/stories/20201000024_oracle_start/bertken.png[/img]\n\n\"It is not for us to question fate. Now be on your way. Time is wasting.\"\n [[okay|Nextlevel]]  [[But wait, I've some more questio...|Nextlevel]]",
 		"position": {
 			"x": 978,
 			"y": 571
@@ -52,7 +52,7 @@
 	{
 		"title": "continue brave",
 		"tags": "",
-		"body": "\"Take this common rue concoction, apply it to the petrified characters and they shall be freed from their bronze prison.\"\n\n\"You will find the Poet François Villon behind Dom Church. Go to him, he will help you find the other historical figures. Be careful! Villon has been know to pick a pocket or two.\"\n\n\"Now be on your way Chosen one, good luck!\"\n[[Wait, why me? |DoNotQuestionFate]] [[Ok|Nextlevel]]",
+		"body": "[img]/assets/data-models/stories/20201000024_oracle_start/bertken.png[/img]\n\n\"Take this common rue concoction, apply it to the petrified characters, and they shall be freed from their bronze prison.\n\nYou will find the Poet François Villon behind the Dom Church. Go to him, he will help you find the other historical figures. Be careful! Villon has been know to pick a pocket or two.\n\nNow be on your way Chosen One, veel succes!\"\n[[Wait, why me? |DoNotQuestionFate]] [[Ok|Nextlevel]]",
 		"position": {
 			"x": 683,
 			"y": 263
@@ -62,7 +62,7 @@
 	{
 		"title": "Lame user",
 		"tags": "",
-		"body": "\"Are you devoid of any sense of bravery and righteousness?\n\nThe faith of the world is at stake!\" \n\n [[Yes i'm a coward take me out of here|End game start (lame user)]][[ No I want to help! |RestoringTheSquare]]",
+		"body": "[img]/assets/data-models/stories/20201000024_oracle_start/bertken.png[/img]\n\"Are you devoid of any sense of bravery and righteousness?\n\nThe fate of the world is at stake!\" \n\n [[Yes i'm a coward take me out of here|End game start (lame user)]][[ No I want to help! |RestoringTheSquare]]",
 		"position": {
 			"x": 510,
 			"y": -177
@@ -72,7 +72,7 @@
 	{
 		"title": "End game start (lame user)",
 		"tags": "",
-		"body": "\"You fool! You have doomed us all! \"\n\n[img]/assets/data-models/stories/20201000024_oracle_start/Utrechtbasilisk_1.png[/img]\n\nBasilisk: Screeeeeechhh \n\n\"Can you hear it?\"\n\n\"The Basilisk is celebrating its victory.\"\n\n\nThe Basilisk dances in victory. \n\nThe rift opens and swallows everything in Utrecht and spreads through the world. \n\nThe screen goes white. \n\n\"Congratulations the world has ended because of you\"\n [[end game please. I don't care about the ending of the world |end1 lame user stops the game]] [[No wait! Take me be back|RestoringTheSquare]]",
+		"body": "[img]/assets/data-models/stories/20201000024_oracle_start/bertken.png[/img]\n\"You fool! You have doomed us all! \"\n\n[img]/assets/data-models/stories/20201000024_oracle_start/Utrechtbasilisk_1.png[/img]\n\n[i]The Basilisk screams[/i]\n\n\"Can you hear it?\n\nThe Basilisk is celebrating its victory.\"\n\n[i]The Basilisk dances in victory. [/i]\n\n[i]The rift opens, swallows everything in Utrecht, and spreads through the world. [/i]\n\n\"Congratulations, the world has ended because of you\"\n [[End the game please. I don't care about the ending of the world |end1 lame user stops the game]] [[No wait! Take me be back|RestoringTheSquare]]",
 		"position": {
 			"x": 2056,
 			"y": -683

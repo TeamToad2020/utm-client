@@ -2,7 +2,7 @@
 	{
 		"title": "GotoTruus",
 		"tags": "",
-		"body": "\"Vriend! Luckily the SS didn't catch you!\"\n\n [[Give daffodils|Give daffodils]]",
+		"body": "[img]/assets/data-models/stories/20201000028_truus/truus.png[/img]\n\n\"Vriend! Luckily the SS didn't catch you!\"\n\n [[Give daffodils|Give daffodils]]",
 		"position": {
 			"x": 2939,
 			"y": 244
@@ -12,7 +12,7 @@
 	{
 		"title": "Give daffodils",
 		"tags": "removeDaffodils",
-		"body": "\"Oh! Good! If we want to end the occupation of the Square we need to move quickly!\n\nThis document will set us free. My contact's waiting in front of the University Building.\"\n\n [[pick up declaration|pick up declaration button]]",
+		"body": "[img]/assets/data-models/stories/20201000028_truus/truus.png[/img]\n\n\"Oh! Good! If we want to end the occupation of the Square we need to move quickly!\n\nThis document will set us free. My contact is waiting in front of the University Building.\"\n\n [[pick up declaration|pick up declaration button]]",
 		"position": {
 			"x": 3297,
 			"y": 235
