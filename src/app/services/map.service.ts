@@ -365,16 +365,14 @@ export class MapService {
       this.geolocationWatcherSub = this.geolocationWatcher.playerPosition
         .pipe(skipWhile(userPosition => !userPosition))
         .subscribe((userPosition: UserPosition) => {
-          const selectedStories: Story[][] = [];
-          for (const station of this.stations.all.getValue()) {
-            // If point in radius, add stories of that station to selection
-            if (booleanPointInPolygon(station, userPosition.radiusPolygon)) {
-              // Add all stories with that station
-              selectedStories.push(this.stories.getAllWithStation(station));
-            }
-          }
-          // This is where the stories of the stations within range are selected
-          // this.stories.setSelectedStations(mergeDedupe(selectedStories));
+          const newStations = this.stations.all.getValue().map(station => {
+            station.isInRange = booleanPointInPolygon(
+              station,
+              userPosition.radiusPolygon
+            );
+            return station;
+          });
+          this.stations.all.next(newStations);
         });
     });
   }

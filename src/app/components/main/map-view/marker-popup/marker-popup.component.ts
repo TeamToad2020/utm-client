@@ -6,6 +6,7 @@ import { Platform } from '@ionic/angular';
 import { Browser } from '@capacitor/core';
 import { Router } from '@angular/router';
 import { PopoverController } from '@ionic/angular';
+import { StationsService } from '../../../../services/stations.service';
 // import { MapInfoUIService } from '../../../../services/map-info-ui.service';
 
 @Component({
@@ -17,12 +18,14 @@ export class MarkerPopupComponent implements OnInit {
   story: Story;
   sources: any[];
   storyState = StoryState;
+  isInRange = true;
 
   constructor(
     stories: StoriesService,
     public platform: Platform,
     public router: Router,
     public routes: RoutesService,
+    private stations: StationsService,
     // public mapInfoUI: MapInfoUIService
     private popoverController: PopoverController
   ) {
@@ -36,6 +39,15 @@ export class MarkerPopupComponent implements OnInit {
 
   ngOnInit() {
     this.story = this.routes.getSelectedStory();
+    console.log(this.story.stations[0]);
+    //Un comment to enable geolocation feature.
+    //this.GeolocationFeature();
+  }
+
+  GeolocationFeature() {
+    this.isInRange = this.stations.getStationById(
+      this.story.stations[0]['@id']
+    ).isInRange;
   }
 
   async DismissPopover() {
