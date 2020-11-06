@@ -5,6 +5,7 @@ import { RouteModel } from '../models/route.model';
 import { StationsService } from './stations.service';
 import { StoriesService } from './stories.service';
 import { Story } from '../models/story.model';
+import { CharSheet } from '../models/character-sheet.model';
 import { StationId } from '../models/station.model';
 import { Route } from '@angular/router';
 
@@ -16,6 +17,8 @@ export class RoutesService {
   selected: BehaviorSubject<RouteModel>;
   selectedStoryIdx: BehaviorSubject<number>;
   routesOverviewShown = false;
+  // charSheets: any;
+  allCharSheets: BehaviorSubject<any[]>;
 
   private readonly DEFAULTSTORYIDX = 8;
 
@@ -27,6 +30,7 @@ export class RoutesService {
     private stories: StoriesService
   ) {
     this.all = new BehaviorSubject<RouteModel[]>([]);
+    this.allCharSheets = new BehaviorSubject<RouteModel[]>([]);
     this.selected = new BehaviorSubject<RouteModel>(undefined);
     this.selectedStoryIdx = new BehaviorSubject<number>(0);
 
@@ -37,6 +41,11 @@ export class RoutesService {
     const routes: RouteModel[] = await this.http
       .get<RouteModel[]>('/assets/data-models/routes.json')
       .toPromise();
+
+    const charSheets: any = await this.http
+      .get('assets/data-models/character-sheets.json')
+      .toPromise();
+    this.allCharSheets = charSheets;
 
     this.allStoriesRouteId = routes[0]['@id'];
 
@@ -117,6 +126,22 @@ export class RoutesService {
       const story: Story = stories[storyIdx];
       if (stationId === story.stations[0]['@id']) {
         return story;
+      }
+    }
+    return undefined;
+  }
+
+  public getCharacterSheetByStoryId(storyId): CharSheet {
+    const charSheets: any = this.allCharSheets;
+    for (
+      let charSheetIdx = 0;
+      charSheetIdx < charSheets.length;
+      charSheetIdx++
+    ) {
+      //  Story is currently assumed to only have one associated station
+      const charSheet: CharSheet = charSheets[charSheetIdx];
+      if (storyId === charSheet.linkedStoryId) {
+        return charSheet;
       }
     }
     return undefined;
