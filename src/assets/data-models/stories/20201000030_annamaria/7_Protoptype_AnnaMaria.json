@@ -22,7 +22,7 @@
 	{
 		"title": "Slacker",
 		"tags": "",
-		"body": "src/assets/data-models/stories/20201000030_annamaria/schurman.png\n\n[i]Anna Maria picks up the books.[/i]\n\n [[Give Quill|Give Quill slacker]]",
+		"body": "[img]/assets/data-models/stories/20201000030_annamaria/schurman.png[/img]\n\n[i]Anna Maria picks up the books.[/i]\n\n [[Give Quill|Give Quill slacker]]",
 		"position": {
 			"x": 4196,
 			"y": 604
