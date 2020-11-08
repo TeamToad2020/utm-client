@@ -18,9 +18,12 @@
       <div><span>Story:</span> {{ charSheet.story }}</div>
       <div class="sources">
         <span>Sources:</span>
-        <a *ngFor="let source of charSheet.sources" [href]="source">{{
-          source
+        <a *ngFor="let website of charSheet.sources.websites" [href]="website">{{
+          website
         }}</a>
+        <div>
+          {{ charSheet.sources.books }}
+        </div>
       </div>
     </div>
   </div>

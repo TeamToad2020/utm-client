@@ -4,7 +4,10 @@ export interface CharSheet {
   lifespan: string;
   origin: string;
   story: string;
-  sources: string[]; // of URLS
+  sources: {
+    websites: string[]; // of URLS
+    books: string;
+  }
   image: { imageUrl: string; sourceUrl: string; sourceName: string }; // URL
   linkedStoryId: string;
 }

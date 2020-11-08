@@ -1,30 +1,196 @@
 [
-  {
-    "name": "Jan VI de Oude",
-    "type": "Human Count",
-    "lifespan": "22 November 1536 – 8 October 1606",
-    "origin": "Jan was born into the noble House of Nassau.",
-    "story": "Jan was the second child and inherited the family’s estate in Germany. Jan had a short career as the stadtholder of Gelre. He then was summoned by his brother Willem to supervise the Union of Utrecht formation. This treaty united the northern provinces in the Netherlands against the Spanish influence. The Union was signed in the kapittel hall in the Academy Building.",
-    "sources": ["https://nl.wikipedia.org/wiki/Jan_VI_van_Nassau-Dillenburg"],
-    "image": {
-      "imageUrl": "/assets/img/jan-vi-de-oude.jpg",
-      "sourceUrl": "https://hetutrechtsarchief.nl/beeld/9BC55A6DC61D5C8B8CA8E53E0B61145D",
-      "sourceName": "39054 / collectie Het Utrechts Archief."
+    {
+        "name": "Jan VI van Nassau-Dillenburg",
+        "type": "Count",
+        "lifespan": "1536 – 1606",
+        "origin": "Jan van Nassau was born into the noble House of Nassau.",
+        "story":
+          "Jan was the second child and inherited the family’s estate in Germany. Jan had a short career as the stadtholder of Gelre. He then was summoned by his brother Willem to supervise the Union of Utrecht formation. This treaty united the northern provinces in the Netherlands against the Spanish influence. The Union was signed in the kapittel hall in the Academy Building.",
+        "sources": {
+            "websites": ["https://nl.wikipedia.org/wiki/Jan_VI_van_Nassau-Dillenburg"],
+            "books": " De Bruin, R. E. (red.) (2000). Een paradijs vol weelde. Geschiedenis van de stad Utrecht, Matrijs, Utrecht, 221."
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/jan-vi-de-oude.jpg",
+          "sourceUrl":
+            "https://hetutrechtsarchief.nl/beeld/9BC55A6DC61D5C8B8CA8E53E0B61145D",
+          "sourceName": "39054/collection Het Utrechts Archief"
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/nassau"
     },
-    "linkedStoryId": "https://utrechttimemachine.nl/stories/nassau"
-  },
-  {
-    "name": "The Oracle",
-    "type": "oracle",
-    "lifespan": "the lifespan of oracle",
-    "origin": "the origin of oracle",
-    "story": "This is the story of the oracle",
-    "sources": ["https://nl.wikipedia.org/wiki/Jan_VI_van_Nassau-Dillenburg"],
-    "image": {
-      "imageUrl": "/assets/img/jan-vi-de-oude.jpg",
-      "sourceUrl": "https://hetutrechtsarchief.nl/beeld/9BC55A6DC61D5C8B8CA8E53E0B61145D",
-      "sourceName": "39054 / collectie Het Utrechts Archief."
-    },
-    "linkedStoryId": "https://utrechttimemachine.nl/stories/oracle_start"
-  }
+    {
+        "name": "Sister Bertken",
+        "type": "Guide and anchoress",
+        "lifespan": "1426/7-1515",
+        "origin": "Berta Jacobs was the illegitimate child in the famous Lichtenberg family.",
+        "story":
+          "Around thirty years of age, Sister Bertken decided to spend the rest of her life enclosed in an anchoress cell adjoining the Buurkerk chancel. She did so to devote herself to God, which was a common practice for women at the time. A window giving on the Buurkerk allowed her to follow the mass. Another window giving on the street allowed her to be provided with food and other necessities. This second window also allowed Utrechters to come to Sister Bertken and ask her for advice. It was believed that this life of reclusion and dedication to God allowed her (and other recluses) to receive special wisdom from the deity.",
+        "sources": {
+            "websites": ["http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/en", "https://sites.google.com/site/archief09/time-of-cities-and-states-1000---1500/sister-bertken"],
+            "books": ""
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/sisterbertken.jpg",
+          "sourceUrl":
+            "https://commons.wikimedia.org/w/index.php?curid=15257480",
+          "sourceName": "Suster Bertken - 1516 print of a book by Suster Bertken."
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/oracle_start"
+
+      },
+
+      { "name": "Basilisk",
+        "type": "Mythical creature",
+        "lifespan": "A century",
+        "Abilities": "Lethal gaze and deadly venom.",
+        "Weaknesses": " Own reflection. Weasels/Rooster. Common Rue.",
+        "origin": " Utrecht’s Basilisk was born from a rooster’s egg hatched by a turtle.",
+        "story":
+          "The Utrecht basilisk hid in a dark cellar under a brewery to protect itself from his own gaze. There, he waited for his victims. Some heroes would go into the cellar to defeat the basilisk but they met the basilisk’s gaze. All died. One day a young boy decided to fight the basilisk. He tied a blindfold on his eyes and went into the cellar. The basilisk, pointing its fiery eyes at him, expected to kill the boy on the spot. The boy stepped forward and caught a plate in his chest and turned it towards the Basilisk. When he realized he was looking at a mirror, the basilisk jumped back with a snarl but it was too late. The glass had already reflected his deadly gaze.",
+        "sources": {
+            "websites": ["https://www.beleven.org/verhaal/het_monster_van_utrecht_de_basilisk", "http://www.verhalenbank.nl/items/show/69833"],
+            "books": "Van de Graft, C. C. (1941). Utrechtsche overleveringen. XXI.: De basilisk van Utrecht. Maandblad van Oud-Utrecht 16 (1941), no. 3, p. 17-18."
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/basiliskc.jpg",
+          "sourceUrl":
+            "https://commons.wikimedia.org/wiki/File:Wenceslas_Hollar_-_The_basilisk_and_the_weasel.jpg",
+          "sourceName": "By Wenceslas Hollar, artwork from University of Toronto Wenceslaus Hollar Digital Collection."
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/oracle_end"
+   },
+      {
+          "name": "François Villon",
+          "type": "Cursed Poet, Vagabond",
+          "lifespan": "1431-1463",
+          "origin": "Though Villon’s patronyme, his year and place of birth remain uncertain. Part of Le Testamment (one of Villon’s most extensive works) refers to Paris.",
+          "story":
+            "François de Montcorbier took the name of his guardian Guillaume de Villon. He took François to his home after the death of his father. Villon graduated with a master’s degree in Arts and Letters in 1452. Throughout his studies, François was an anti-authoritarian party animal. This wild aspect of François is also characteristic of the rest of his life. Villon had to leave Paris to escape prison several times. In 1461, François was imprisoned in the  Meung-on-Loire prison for unknown reasons. After being released, in the same year, he begins to write his Testamment, sensing the end of his life",
+          "sources": {
+              "websites": ["https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Villon","https://historiek.net/francois-villon-dichter-struikrover/70233/"],
+              "books": ""
+          },
+          "image": {
+            "imageUrl": "/assets/img/character-sheet-images/francoisvillon.jpg",
+            "sourceUrl":
+              "https://commons.wikimedia.org/w/index.php?curid=4762441",
+            "sourceName": "By Ludwig Rullmann."
+          },
+          "linkedStoryId": "https://utrechttimemachine.nl/stories/villon"
+        },
+    {
+        "name": "Christophorus Henricus Dedericus Buys Ballot",
+        "type": "Meteorologist, physicist, chemist",
+        "lifespan": "1817-1890",
+        "origin": "Christophorus was born in Kloetinge in 1817.",
+        "story":
+          "Christophorus Buys Ballot was famous for his observation of wind and his meteorological law regarding the air pressure and wind. Even though he was not the first one to make this discovery, his name became attached to this law. Christophorus studied the arts at Utrecht University in 1835 and took a bachelor’s degree in literature in 1838.  He then changed his orientation towards science subjects. In 1844 he got a doctorate in physics. Before being a meteorologist, he tried to contribute to the fields of mathematics and physics unsuccessfully. He ultimately turned to meteorology out of disappointment.",
+        "sources": {
+            "websites": ["https://www.zeeuwseankers.nl/verhaal/christophorus-buys-ballot-meteoroloog-uit-kloetinge","https://nl.wikipedia.org/wiki/Christophorus_Buys_Ballot", "https://www.britannica.com/biography/Christophorus-Buys-Ballot"],
+            "books": ""
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/buysballotc.jpg",
+          "sourceUrl":
+            "https://commons.wikimedia.org/w/index.php?curid=8960834",
+          "sourceName": "By Johan Heinrich Neuman (1819-1898)."
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/buysballot"
+        },
+    {
+        "name": "Anna Maria van Schurman",
+        "type": "Student, poet, theologist, humanist",
+        "lifespan": "1607-1678",
+        "origin": "Anna Maria van Schurman was born in Cologne. She lived in Utrecht for more than 40 years.",
+        "story":
+          "Anna Maria van Schurman was the first female student in the Netherlands. In 1636, she enrolled at Utrecht University. She had to attend lectures from behind a curtain to keep the male students in check.She learned Latin from her father. Her skills in the dead language were so renowned that she got the attention of ​​Gisbertus Voetius, professor of theology at Utrecht University. Voetius admitted her to his lectures. This was unprecedented as women were considered unsuited for science. As she wanted to devote herself to arts and science, she did not get married.",
+        "sources": {
+            "websites": ["http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/Schurman","https://www.uu.nl/en/organisation/alumni/anna-maria-van-schurman"],
+            "books": "Van Beek, P. (2010). The first female university student: Anna Maria van Schurman (1636). Igitur"
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/annamariavanschurman.jpg",
+          "sourceUrl":
+            "https://hetutrechtsarchief.nl/beeld/2286EA92269A5346AFA173941988F7DB",
+          "sourceName": "39224/collection Het Utrechts Archief."
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/annamaria"
+                
+             },
+    {
+        "name": " Malgosia Fiebig",
+        "type": " carillonist",
+        "lifespan": "still living",
+        "origin": "Malgosia Fiebig was born in Gdansk, Poland.",
+        "story":
+          "Malgosia Fiebig is a carillonist in Utrecht and Nijmegen. She was the Dom Tower’s first woman carillonist in over 300 centuries. She was also a carillonist for the City Hall Tower and the St. Catherine’s Church in Gdansk. She moved to the Netherlands in 2004. She became world-famous for her renditions of popular music at the death of their artists. For example, in 2016, she played “Space Oddity” in David Bowie’s honor. She also won several prices in international carillon competitions.",
+        "sources": {
+            "websites": ["https://www.malgosiafiebig.com/english#aboutme","https://www.domtoren.nl/nl/de-domtoren/nieuws/interview-met-beiaardier-malgosia-fiebig","https://www.france24.com/en/20181121-modern-artists-whom-ancient-dutch-bells-toll"],
+            "books": ""
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/malgosiafiebig.jpg",
+          
+          "sourceName": "Original artwork by Ernst-Jan van Melle."
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/carillionist"
+      },
+    {
+        "name": "Jan van den Doem (Jan van Hennegouwen)",
+        "type": "Master-builder and architect",
+        "lifespan": "lifespan unknown",
+        "origin": "Jan van den Doem was one of the master-builders of the Dom Tower in the 14th century. He presumably started working on and designing the tower in 1321-1355.",
+        "story":
+          "Jan van den Doem designed the Dom Tower and is responsible for the appearance of the tower today. The statue located at the Pandhof depicts Jan with a plumb bob in his left hand. A plumb bob is a tip-pointed weight suspended from a string. Builders used the string as a vertical reference line. You will see a beaver at his feet because the beaver can be seen as a builder in nature.",
+        "sources": {
+            "websites": [],
+            "books": "R. de Kam, F. Kipp en D. Claessen, De Utrechtse Domtoren. Trots van de stad (Utrecht 2014). 114-118."
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/janvandendoem.jpg",
+          "sourceUrl":
+            "https://hetutrechtsarchief.nl/beeld/9B2D08F8F47281FEE0534701000A232B",
+          "sourceName": "Photograph by R. van der Woude, 17-12-2010, 847214/ collection Het Utrechts Archief."
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/doem"
+      },
+    {
+        "name": "Geertruida (Truus) van Lier",
+        "type": "Law student and member of the student resistance group CS-6 during WWII",
+        "lifespan": "1921-1943",
+        "origin": "Truus van Lier was born in Utrecht. She lived with her parents and her older sister on the Prins Hendriklaan.",
+        "story":
+          "After finishing grammar school, Truus van Lier started studying law in 1940. During her studies, Truus became involved with the Amsterdam student resistance group CS-6. She accompanied Jewish people in hiding to safe houses and delivered messages for the resistance. She also spread illegal pamphlets and resistance literature.In 1943 Truus shot Gerardus Johannes Kerlen. He was the NSB head commissioner of the Utrecht police. He died later in the hospital of his wounds. Kerlen was targeted by the resistance because he was responsible for tracing Jews in hiding. He arrested those who did not want to cooperate in arresting Jews (such as police officers and their families). After the shooting, Truus went into hiding. She was arrested in Haarlem in 1943. Truus was taken away to concentration camp Sachsenhausen. She was fusilated there in 1943.",
+        "sources": {
+            "websites": ["http://resources.huygens.knaw.nl/vrouwenlexicon/lemmata/data/LierTruus","https://truusvanlier.nl/","https://nl.wikipedia.org/wiki/Truus_van_Lier"],
+            "books": ""
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/truusvanlier.jpg",
+          "sourceUrl":
+            "https://hetutrechtsarchief.nl/beeld/234D7E7041605018B556B6CA9A05AFB5",
+          "sourceName": "811616/ collection Het Utrechts Archief."
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/truus"
+      },
+    {
+        "name": "Brinno",
+        "type": " Cananefate warrior",
+        "lifespan": "Unknown, active around 69-70",
+        "origin": "Brinno was a Cananefate nobleman. Cananefates are a Germanic tribe living on the north sea coast",
+        "story":
+          " Brinno’s family was on good terms with the occupying Romans. This allowed him to have a privileged youth. When civil war broke out in Rome in 69, a sizable portion of the occupying armies was sent back to Rome. In Roman absence, Brinno became the leader of the Cananefates. Under his leadership, the Cananefates revolted against the Romans. Brinno blindsided the Romans by attacking their winter camps in Utrecht, and in turn, inspired the Batavian Revolt. This led to a bloody battle in Betuwe during which the Roman forces were resoundingly defeated. Brinno's later fate is unknown.",
+        "sources": {
+            "websites": ["https://en.wikipedia.org/wiki/Cananefates","https://en.wikipedia.org/wiki/Brinno","https://derotte.nl/verhalen/1674-2/"],
+            "books": "De Bruin, R. E. (red.) (2000). Een paradijs vol weelde. Geschiedenis van de stad Utrecht, Matrijs, Utrecht, 18. & Teitler, H. (2002). Raising on a shield: Origin and afterlife of a coronation ceremony. International Journal of the Classical Tradition, 8(4), 501-521."
+        },
+        "image": {
+          "imageUrl": "/assets/img/character-sheet-images/brinnoc.jpg",
+          "sourceUrl":
+            "http://hdl.handle.net/10934/RM0001.COLLECT.6798",
+          "sourceName": "Brinno is being raised on the shield by Otto van Veen (dated 1600-1613)."
+        },
+        "linkedStoryId": "https://utrechttimemachine.nl/stories/brinno"
+      }
+          
 ]
