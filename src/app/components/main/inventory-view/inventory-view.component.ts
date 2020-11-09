@@ -19,6 +19,6 @@ export class InventoryViewComponent {
   ) {}
 
   Back() {
-    this.router.navigate(['']);
+    this.router.navigate(['/map']);
   }
 }
